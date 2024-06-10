@@ -2,6 +2,10 @@
 	font-family: "GothicA1-Regular";
 	src: url(fonts/GothicA1/GothicA1-Regular.ttf);
 }
+@font-face {
+	font-family: "GothicA1-Bold";
+	src: url(fonts/GothicA1/GothicA1-Bold.ttf);
+}
 * {
 	margin: 0;
 	padding: 0;
@@ -12,7 +16,7 @@ header {
 	width: 100%;
 	height: 100px;
 	display: flex;
-    
+    align-items: center;
 }
 
 header .container {
@@ -206,4 +210,208 @@ header .container {
 }
 .part3_third{
 	margin-bottom: 159px;
+}
+.part4 .container{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.part4_first, .part4_second, .part4_third{
+	height: 209px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+}
+.part4_div{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin-bottom: 160px;
+}
+.part4_img{
+	height: 35px;
+}
+.part4_text{
+	text-align: center;
+	width: 100%;
+}
+.part4_text h3{
+	font-family: "GothicA1-Bold";
+	font-size: 18px;
+	line-height: 24px;
+	margin-top: 40px;
+	margin-bottom: 17px;
+}
+.part4_first, .part4_second{
+	margin-right: 61px;
+}
+.part4_text h4{
+	font-family: "GothicA1-Regular";
+	font-size: 16px;
+	line-height: 30px;
+	color: #6B6B6B;
+	margin-bottom: 3px;
+	width: 100%;
+}
+
+.part5_first, .part5_second, .part5_third, .part5_fourth{
+	display: flex;
+	height: 134px;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+}
+.part5_div{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 160px;
+}
+.part5_div h3{
+	font-family: "GothicA1-Regular";
+	font-size: 59px;
+	line-height: 90px;
+	font-weight: 400;
+}
+.part5_div h4{
+	font-family: "GothicA1-Bold";
+	font-size: 18px;
+	line-height: 24px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.part6_first, .part6_second{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+.part6_div p{
+	font-family: "GothicA1-Regular";
+	font-size: 12px;
+	line-height: 20px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	color: #A8A8A8;
+}
+.part6_first h2{
+	font-family: "GothicA1-Regular";
+	font-size: 38px;
+	line-height: 48px;
+	font-weight: 400;
+	margin-top: 25px;
+	margin-bottom: 22px;
+}
+.part6_first h3{
+	font-family: "GothicA1-Regular";
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: 400;
+	color: #6B6B6B;
+	margin-right: 82px;
+}
+.part6_bold{
+	font-family: "GothicA1-Bold";
+	text-decoration: underline;
+}
+.part6_second h2{
+	font-family: "GothicA1-Regular";
+	font-size: 38px;
+	line-height: 48px;
+	font-weight: 400;
+	margin-top: 25px;
+	margin-bottom: 27px;
+	margin-left: 77px;
+}
+.part6_second h3{
+	font-family: "GothicA1-Regular";
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: 400;
+	color: #6B6B6B;
+	margin-left: 77px;
+}
+.part6_first p{
+	font-family: "GothicA1-Regular";
+	font-size: 12px;
+	line-height: 20px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	color: #A8A8A8;
+}
+.part6_second p{
+	font-family: "GothicA1-Regular";
+	font-size: 12px;
+	line-height: 20px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	color: #A8A8A8;
+	margin-left: 77px;
+}
+.part6_second{
+	margin-bottom: 160px;
+	margin-top: 161px;
+}
+.part7_div{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+}
+.part7_div img{
+	width: 58px;
+	height: 54px;
+	margin-bottom: 63px;
+}
+.line{
+	width: 30px;
+	height: 1px;
+	background-color: #D3D3D3;
+	margin: 0 20px;
+}
+.part7_text{
+	display: flex;
+	align-items: center;
+	margin-top: 17px;
+	margin-bottom: 88px;
+}
+.part7_div h3{
+	font-family: "GothicA1-Regular";
+	font-size: 24px;
+	line-height: 40px;
+	font-weight: 400;
+	color: #6B6B6B;
+}
+.part7_text h2{
+	font-family: "GothicA1-Regular";
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: 400;
+	color: #6B6B6B;
+}
+.part7_text h1{
+	font-family: "GothicA1-Bold";
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: 400;
+	color: #6B6B6B;
+}
+.line1{
+	width: 7px;
+	height: 7px;
+	background-color: rgba(34, 34, 34, 1);
+	margin-right: 16px;
+}
+.line2{
+	width: 7px;
+	height: 7px;
+	background-color: rgba(34, 34, 34, 0.4);
+}
+.lines{
+	display: flex;
+	margin-bottom: 102px;
 }
